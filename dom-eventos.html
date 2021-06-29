@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset='utf-8'>
+    <title>Página de exercícios HTML | Gama Academy</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <meta name='author' content='Gama Academy' />
+    <meta name='description' content='Texto descretivo da página web' />
+
+
+</head>
+
+<body>
+    <main>
+        <p id="texto1">
+            Pessoal, eu tinha comentado no discord mas não rolou muito então vou deixar o convite aqui. 
+            Eu costumo acompanhar/estudar melhor em grupos (duplas, trios ou quartetos). 
+            Então se alguém quiser formar um equipe comigo só pra trocar figurinha de uma forma 
+            mais próxima ou até mesmo para nos lembrarmos de datas durantes as semanas, 
+            eu ficaria muito feliz! Sou iniciante na área, conheço somente HTML, 
+            CSS e um pouco de JavaScript.
+        </p>
+
+        <button id="botao1" onclick="Atualizacao()">Atualização de Texto</button>
+
+        <script type="text/javascript">
+
+        function Atualizacao(){
+            var texto1 = document.getElementById("texto1");
+
+            texto1.innerText = "Star Wars!";
+        }
+
+        </script>
+    </main>
+</body>
+
+</html>
